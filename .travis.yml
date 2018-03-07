@@ -3,5 +3,5 @@ solution: ./src/AppGregariaApi/AppGregariaApi.sln
 mono: none
 dotnet: 2.0.0
 script:
-  - dotnet restore
+  - dotnet restore ./src/AppGregariaApi/AppGregariaApi.sln
   - dotnet build ./src/AppGregariaApi/AppGregariaApi.sln
